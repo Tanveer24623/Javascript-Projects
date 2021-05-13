@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <title>Movie App</title>
+</head>
+<body>
+    <nav>
+        <div class="logo-container"><h1 class="logo">TMovies</h1></div>
+        <input 
+            type="text" 
+            class="search"
+            placeholder="Search any Movie or Tv Show"
+        >
+        <ul class="category">
+            <li><a href="#" class="active">Movies</a></li>
+            <li><a href="#">TV Shows</a></li>
+            <li><a href="#">Watchlist</a></li>
+        </ul>
+    </nav>
+    <div class="main">
+    <div class="sidebar">
+        <div class="genre">
+            <h3>Genre</h3>
+            <ul id="genre" class="genre-ul"></ul>
+        </div>
+    </div>
+    <div class="container">
+        <div class="movies">
+            <div class="movies-category-header">
+
+            </div>
+            <div class="movies-category-body" id="movies-category-body">        
+            
+            </div>
+        </div>
+    </div>
+    </div>
+    <script src="script.js" defer></script>
+</body>
+</html>
